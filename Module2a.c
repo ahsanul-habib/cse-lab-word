@@ -2,16 +2,16 @@
 
 int main()
 {
-    int a[5], k, up,lb, i;
-    printf("Enter elements ");
-    for(i=0; i<5; i++){
-        scanf("%d", &a[i]);
+    int array[5], k, upper_bound, lower_bound, i;
+    printf("Enter elements: ");
+    for(i = 0; i < 5; i++) {
+        scanf("%d", &array[i]);
     }
-    up=5;
-    lb=0;
-    for(k=lb; k<up; k++){
-        printf("%d ", a[k]);
+    upper_bound = 5;
+    lower_bound = 0;
+    for(k = lower_bound; k < upper_bound; k++) {
+        printf("%d ", array[k]);
     }
-    	
+    
     return 0;
 }
